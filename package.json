@@ -1,0 +1,26 @@
+{
+  "name": "authapp",
+  "version": "1.0.0",
+  "description": "- Create an endpoint that issues a jwt token. \r - Create 2nd endpoint that blacklists this token.\r - Create 3rd endpoint to show session history of the user.\r - And a middleware for accessing rest of the endpoints. (Rest of the endpoints can be just normal Hello-world stuff, not important, just for testing)\r - The login endpoint can accept username/password or a google token (access-token, id-token, one-time-code). Depending upon where it is coming from it verifies the user and issues token.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akshaycs10/authApp.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "akshay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akshaycs10/authApp/issues"
+  },
+  "homepage": "https://github.com/akshaycs10/authApp#readme",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.6"
+  }
+}
